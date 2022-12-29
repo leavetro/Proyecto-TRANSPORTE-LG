@@ -1,0 +1,656 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---- INDEX ---- */
+
+/*-----HEADER-----*/
+header {
+  background-image: radial-gradient(
+    circle at 7.42% 53.73%,
+    #edda67 0,
+    #efcf59 16.67%,
+    #f1c24a 33.33%,
+    #f2b53c 50%,
+    #f3a72f 66.67%,
+    #f59925 83.33%,
+    #f78b1e 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 2px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  width: 400px;
+  height: 100px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/*-----MAIN-----*/
+
+.hero {
+  background-image: url("../img/portada.jpg");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 30px;
+}
+
+.hero p {
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.logydist {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.imglogydist {
+  width: 480px;
+  height: 320px;
+}
+
+.compromiso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.compromiso p {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.logydist p {
+  font-size: 20px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.servicios {
+  background-color: rgba(255, 220, 95, 0.687);
+  color: black;
+}
+
+.quienes {
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.rrhh {
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.contactos {
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+/*-----FOOTER-----*/
+
+.footer {
+  width: 100%;
+  height: 18vh;
+  background-image: radial-gradient(
+    circle at 7.42% 53.73%,
+    #edda67 0,
+    #efcf59 16.67%,
+    #f1c24a 33.33%,
+    #f2b53c 50%,
+    #f3a72f 66.67%,
+    #f59925 83.33%,
+    #f78b1e 100%
+  );
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer h2 {
+  text-align: left;
+  margin-top: 10px;
+  padding: 6px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  justify-content: start;
+}
+
+.footer div ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 6px;
+}
+
+/* ---- SERVICIOS ---- */
+
+.servicios {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  justify-content: start;
+}
+
+.servicios div img {
+  width: 200px;
+  height: 200px;
+}
+
+.servicios div {
+  border: 1px solid black;
+  width: 205px;
+  height: 300px;
+  text-align: center;
+  background-color: #ffa60d84;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+  transition: 1s;
+}
+
+.servicios div:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.852);
+}
+
+.flota {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  justify-content: start;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.flota div img {
+  width: 250px;
+  height: 250px;
+}
+
+.flota div {
+  border: 1px solid black;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  background-color: #ffa60d84;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+  transition: 1s;
+}
+
+.flota div:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.852);
+}
+
+.otros {
+  margin-bottom: 10px;
+}
+
+.otros h2 {
+  text-align: start;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  justify-content: start;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.reembolsoimg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(255, 220, 95, 0.687);
+  flex-direction: row;
+}
+
+.mudanzaimg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(255, 220, 95, 0.687);
+  flex-direction: row;
+}
+
+.contrareembolso {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.mudanza {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* ---- CONTACTOS ---- */
+
+.fondocontactos {
+  background-image: url(../img/fondo\ contactos.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fondocontactos h1 {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 30px;
+}
+
+.sectioncontactos {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.sectioncontactos h1 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.sectioncontactos h2 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.subreset {
+  padding: 10px;
+}
+
+.estilotextarea {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #ffa200;
+}
+
+/* ---- QUIENES ---- */
+
+.fondoquienes {
+  background-image: url("../img/fondoquienes.jpg");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fondoquienes h1 {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 30px;
+}
+
+.brindandop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding: 10px;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.brindandop h2 {
+  margin-bottom: 10px;
+}
+
+.brindandop p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.valoresprincipales {
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.principiosyvisiones {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.principiosyvisiones img {
+  float: left;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.principiosyvisiones h3 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  padding: 10px;
+  background-color: rgba(255, 220, 95, 0.687);
+  box-sizing: border-box;
+}
+
+.imgvisionmv {
+  width: 480px;
+  height: 320px;
+}
+
+.miviva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.mision {
+  margin: 5px;
+}
+
+.vision {
+  margin: 5px;
+}
+
+.valores {
+  margin: 5px;
+}
+
+/* ---- RRHH ---- */
+
+.fondorrhh {
+  background-image: url("../img/rrhh.jpg");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fondorrhh h1 {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 30px;
+}
+
+.titulorrhh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding: 15px;
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+.titulorrhh p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  padding: 5px;
+}
+
+.formularioback {
+  background-color: rgba(255, 220, 95, 0.687);
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+@media screen and (max-width: 950px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .logydist {
+    flex-direction: column;
+  }
+
+  .miviva {
+    font-size: 12px;
+    font-weight: 250;
+    margin: 7px;
+    padding: 7px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .principiosyvisiones img {
+    flex-direction: column;
+  }
+
+  .fondoquienes {
+    background-image: url("../img/fondoquienes.jpg");
+    width: 100%;
+    height: 50vh;
+  }
+
+  .fondorrhh {
+    background-image: url("../img/rrhh.jpg");
+    width: 100%;
+    height: 50vh;
+  }
+
+  .fondocontactos {
+    background-image: url(../img/fondo\ contactos.jpg);
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .hero {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .hero p {
+    font-size: 10clpx;
+    margin-top: 6px;
+    padding: 15px;
+  }
+
+  .imgvisionmv {
+    width: 350px;
+    height: 233px;
+  }
+
+  .fondorrhh h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .fondocontactos h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 300px;
+    height: 100px;
+  }
+  .header nav ul {
+    font-size: 15px;
+    width: 300px;
+    padding: 0%;
+  }
+
+  .compromiso {
+    font-size: 20px;
+  }
+
+  .compromiso p {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .logydist p {
+    font-size: 15px;
+  }
+
+  .fondorrhh h1 {
+    font-size: 30px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imglogydist {
+    width: 350px;
+    height: 233px;
+  }
+
+  .fondorrhh {
+    background-image: url("../img/rrhh.jpg");
+    width: 100%;
+    height: 40vh;
+  }
+
+  .fondorrhh h1 {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
