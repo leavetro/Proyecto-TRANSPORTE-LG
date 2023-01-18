@@ -1,0 +1,201 @@
+/* ---- SERVICIOS ---- */
+
+.servicios {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: nth($font-size, 2);
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  justify-content: start;
+
+  div {
+    border: 1px solid black;
+    width: 205px;
+    height: 300px;
+    text-align: center;
+    background-color: $color-principal;
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    transition: 1s;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.852);
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  div {
+    border: 1px solid black;
+    width: 205px;
+    height: 300px;
+    text-align: center;
+    background-color: $color-principal;
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    transition: 1s;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.852);
+    }
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+
+.flota {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: nth($font-size, 2);
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  justify-content: start;
+  background-color: $color-secundario;
+
+  div {
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    background-color: $color-principal;
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    transition: 1s;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.852);
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  div {
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    background-color: $color-principal;
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    transition: 1s;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.852);
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  div {
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    background-color: $color-principal;
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    transition: 1s;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.852);
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+}
+
+.otros {
+  margin-bottom: 10px;
+
+  h2 {
+    text-align: start;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: nth($font-size, 3);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    justify-content: start;
+    background-color: $color-secundario;
+  }
+
+  .reembolsoimg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $color-secundario;
+    flex-direction: row;
+  }
+
+  .contrareembolso {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  .mudanzaimg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $color-secundario;
+    flex-direction: row;
+  }
+
+  .mudanza {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+  }
+}

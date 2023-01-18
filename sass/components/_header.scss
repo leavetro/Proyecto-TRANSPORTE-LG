@@ -1,0 +1,41 @@
+/*-----HEADER-----*/
+
+header {
+    background-image: radial-gradient(circle at 7.42% 53.73%, #edda67 0, #efcf59 16.67%, #f1c24a 33.33%, #f2b53c 50%, #f3a72f 66.67%, #f59925 83.33%, #f78b1e 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    a{
+
+        .logo{
+            width: 400px;
+            height: 100px;
+        };
+    }
+    nav{
+
+        ul{
+            list-style: none;
+            display: flex;
+
+            li{
+
+                a{
+                    margin: 20px;
+                    text-decoration: none;
+                    color: black;
+                    font-size: nth($font-size, 2);
+                    font-family: "Roboto", sans-serif;
+                    font-style: italic;
+                    font-weight: 500;
+
+                }
+            }
+        }
+    }
+}

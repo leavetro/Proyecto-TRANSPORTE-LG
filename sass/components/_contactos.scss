@@ -1,0 +1,47 @@
+/* ---- CONTACTOS ---- */
+
+
+.fondocontactos{
+  background-image: url(../img/fondo\ contactos.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @include flex (flex, center, center, column);
+
+  h1{
+    font-size: nth($font-size, 5);
+    background-color: $color-terciario;
+    color: white;
+    padding: 30px;
+  }
+
+}
+.sectioncontactos{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-secundario;
+
+  h2{
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+}
+  .subreset {
+    padding: 10px;
+  }
+  
+  .estilotextarea {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #ffa200;
+  }

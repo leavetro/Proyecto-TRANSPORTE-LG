@@ -1,0 +1,51 @@
+/* ---- RRHH ---- */
+
+.fondorrhh{
+  background-image: url("../img/rrhh.jpg");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @include flex (flex,center, center, column);
+
+  h1{
+    font-size: nth($font-size, 5);
+    background-color: $color-terciario;
+    color: white;
+    padding: 30px;
+  }
+}
+
+.titulorrhh{
+  @include flex (flex,center, center, column);
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding: 15px;
+  background-color: $color-secundario;
+
+  p{
+    @include flex (flex,center, center, column);
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    padding: 5px;
+  }
+  p{
+    @include flex (flex,center, center, column);
+    font-size: nth($font-size, 2);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    padding: 5px;
+  }
+}
+
+.formularioback{
+  background-color: $color-secundario;
+
+}

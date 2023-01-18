@@ -1,0 +1,95 @@
+/* ---- QUIENES ---- */
+
+.fondoquienes{
+  background-image: url("../img/fondoquienes.jpg");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @include flex (flex, center, center,column);
+
+  h1{
+    font-size: nth($font-size, 5);
+    background-color: $color-terciario;
+    color: white;
+    padding: 30px;
+  }
+}
+
+.brindandop{
+  @include flex (flex, center, center, column);
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding: 10px;
+  background-color: $color-secundario;
+
+  h2{
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+
+.principiosyvisiones{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: $color-secundario;
+
+  .valoresprincipales{
+    background-color: $color-secundario;
+
+    h3{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: nth($font-size, 3);
+      font-family: "Roboto", sans-serif;
+      font-style: italic;
+      font-weight: 500;
+      padding: 10px;
+      background-color: $color-secundario;
+      box-sizing: border-box;
+    }
+
+    .principios{
+
+      .imgvisionmv{
+        float: left;
+        background-color: $color-secundario;
+        width: 480px;
+        height: 320px;
+      }
+
+      .miviva{
+        @include flex (flex, center, center, column);
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        margin: 10px;
+        padding: 10px;
+        background-color: $color-secundario;
+
+        .mision{
+          margin: 5px;
+        }
+        .vision{
+          margin: 5px;
+        }
+        .valores{
+          margin: 5px;
+        }
+      }
+
+    }
+  }
+}
